@@ -26,8 +26,8 @@ import org.restlet.engine.util.Base64;
 
 public class WaitlistMeNot {
 	
-	private static String consumerKey = "XwXtSc3SfScCygfrZwOzeI8YcNga";				//ConsumerKey provided by UofM API services.
-	private static String consumerSecret = "sv1mIS_xaT64u97wfro68YZE8zsa";				//ConsumerSecret provided by UofM API services.
+	private static String consumerKey = "REDACTED";				//ConsumerKey provided by UofM API services.
+	private static String consumerSecret = "REDACTED";				//ConsumerSecret provided by UofM API services.
 	volatile private static String accessToken;										//Used to authenticate a request over REST.
 	volatile private static String refreshToken;										//Used for authentication renewal.
 	private static String[] tokens;													//Structure that contains accessToken in [0] and refreshToken in [1].
